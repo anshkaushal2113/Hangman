@@ -115,7 +115,7 @@ def randomWord(api_key):
         return None  # If no suitable word found, return None
 
 
-# api_key = "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"
+
 random_word = randomWord(api_key)
 print("Random Word:", random_word)
 
@@ -131,7 +131,7 @@ print("Random Word:", random_word)
 #     randomWord = response.choices[0].text.strip()
 #     return randomWord
 #
-# api_key = "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"
+
 # random_word = randomWord(api_key)
 # print("Random Word:", random_word)
 
@@ -146,8 +146,7 @@ print("Random Word:", random_word)
 #         return None
 #
 #
-# # api_key = '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'
-# api_key = "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"
+
 # random_word = randomWord(api_key)
 # print("Random Word:", random_word)
 
@@ -172,8 +171,7 @@ def generate_synonym(word, api_key):
     return synonym
 
 
-# Example usage:
-# api_key = "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"
+
 word = random_word  # Replace with your word
 synonym = generate_synonym(word, api_key)
 print(f"Synonym for your word is : {synonym}")
